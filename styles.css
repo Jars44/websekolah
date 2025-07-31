@@ -226,13 +226,13 @@ main section {
   margin-bottom: 40px;
 }
 
-.history-section .progress-bar {
+.progress-bar {
   background-color: var(--surface-background);
-  border: 2px solid var(--accent-color);
-  border-radius: 10px;
-  padding: 20px;
+  border: 1px solid var(--border-color);
+  border-radius: 15px;
   width: 100%;
-  height: 70px;
+  height: 45px;
+  box-shadow: 4px 3px rgba(0, 0, 0, 0.4);
 }
 
 .jurusan-section-wrapper h1 {
@@ -247,6 +247,40 @@ main section {
   background-color: var(--surface-background);
   padding: 20px;
   border-radius: 10px;
+}
+
+.facility {
+  width: 250px;
+  padding: 20px;
+  height: Auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.facility-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.facility .facility-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.facility .facility-title p {
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.facility .facility-title .bi {
+  font-size: 1.6rem;
+}
+
+.facility p {
+  font-size: 1.1rem;
 }
 
 .carousel-button {
@@ -278,15 +312,6 @@ main section {
   text-align: center;
   font-size: 16px;
   margin-bottom: 40px;
-}
-
-.fasilitas-section .progress-bar {
-  background-color: var(--surface-background);
-  border: 2px solid var(--accent-color);
-  border-radius: 10px;
-  padding: 20px;
-  width: 100%;
-  height: 70px;
 }
 
 .section-berita {
@@ -839,4 +864,28 @@ footer {
 .menu-links a:hover {
   color: var(--accent-color);
   transform: translateX(10px);
+}
+
+.vertical-line::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 2px;
+  height: 60px; 
+  background-color: var(--border-color);
+  transform: translateX(-50%);
+}
+
+.vertical-line {
+  position: relative;
+  padding-top: 80px; 
+}
+
+.progress {
+  width: 500px;
+  background-color: var(--primary-text);
+
+  height: 45px;
+  border-radius: 15px;
 }
