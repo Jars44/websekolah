@@ -148,6 +148,10 @@ main section {
   text-align: left;
 }
 
+section {
+  border-bottom: 7px dashed var(--surface-background);
+}
+
 .logosmkn2-hero {
   width: 400px;
   animation: float 6s ease-in-out infinite;
@@ -207,18 +211,17 @@ main section {
   border-radius: 8px;
 }
 
+.history-section img {
+  width: 100px;
+  margin-bottom: 30px;
+}
+
 .history-section {
   margin: 0 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.history-section img {
-  margin-bottom: 20px;
-  width: 180px;
-  height: auto;
-  object-fit: cover;
+  overflow: hidden;
 }
 
 .history-section p {
@@ -231,7 +234,7 @@ main section {
   border: 1px solid var(--border-color);
   border-radius: 15px;
   width: 100%;
-  height: 45px;
+  height: 20px;
   box-shadow: 4px 3px rgba(0, 0, 0, 0.4);
 }
 
@@ -886,6 +889,31 @@ footer {
   width: 500px;
   background-color: var(--primary-text);
 
-  height: 45px;
+  height: 20px;
   border-radius: 15px;
+}
+
+.animated-underline {
+  position: relative;
+  text-decoration: none;
+  color: var(--secondary-text);
+}
+
+.animated-underline::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--primary-text);
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.60s ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.animated-underline:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
