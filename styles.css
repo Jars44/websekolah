@@ -781,7 +781,7 @@ footer {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("/assets/background.jpg"); /* Ganti dengan path gambar Anda */
+  background-image: url("assets/background.jpg"); /* Ganti dengan path gambar Anda */
   object-fit: cover;
   background-size: cover;
   background-position: center;
