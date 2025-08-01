@@ -8,13 +8,23 @@ Web design competition prototype repository
 - [ ] Coloring
 - [ ] Fonts
 
+**Minigame Jurusan**
+- [ ] Rekayasa Perangkat Lunak : Maze
+- [ ] Desain Komunikasi Visual : Sketch
+- [ ] Elektronika Industri : Board
+- [ ] Broadcasting : Capture Bird
+- [ ] Teknik Komputer dan Jaringan : Connecting RJ45
+- [ ] Audio Video : Sound Equalizer
+- [ ] Mekatronika : `TODO!`
+- [ ] Animasi : `TODO!`
+
 **Layout**
-- [X] Header
-- [X] Footer
-- [X] Hero
-- [X] Information Section
-- [X] Facility Section
-- [X] News Section
+- [X] ~~Header~~
+- [X] ~~Footer~~
+- [X] ~~Hero~~
+- [X] ~~Information Section~~
+- [X] ~~Facility Section~~
+- [X] ~~News Section~~
 - [ ] History Section
 - [ ] Video Section
 - [ ] Jurusan page
@@ -28,6 +38,8 @@ Web design competition prototype repository
   - [ ] Animasi
 - [ ] News Page
 - [ ] MORE!
+
+
 
 ## License
 
