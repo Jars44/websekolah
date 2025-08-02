@@ -23,6 +23,7 @@ jobs:
         run: |
           npm install -g eslint@latest stylelint htmlhint
           npm install -g stylelint-config-standard
+          npm install --save-dev @eslint/js
 
       - name: ✅ Lint JS Files with ESLint
         run: |
