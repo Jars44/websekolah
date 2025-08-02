@@ -1,0 +1,36 @@
+name: Web Project Check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🔄 Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: 🧪 Install Node.js (buat linting JS & CSS)
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: 📦 Install Dependencies
+        run: |
+          npm install -g eslint stylelint htmlhint
+
+      - name: ✅ Lint JS Files with ESLint
+        run: |
+          eslint . --ext .js
+
+      - name: ✅ Lint CSS Files with Stylelint
+        run: |
+          stylelint "**/*.css"
+
+      - name: ✅ Validate HTML Files with HTMLHint
+        run: |
+          htmlhint .
