@@ -29,7 +29,7 @@ jobs:
 
       - name: ✅ Lint CSS Files with Stylelint
         run: |
-          stylelint "**/*.css" --config .stylelintrc.json
+          stylelint "**/*.css"
 
       - name: ✅ Validate HTML Files with HTMLHint
         run: |
