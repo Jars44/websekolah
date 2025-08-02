@@ -1,7 +1,7 @@
 :root {
   --primary-background: #161617;
   --surface-background: #191818;
-  --header-background: #161617;
+  --header-background: #2167e1;
   --primary-text: #fafafa;
   --secondary-text: #a0a0a0;
   --accent-color: #2167e1;
@@ -76,14 +76,11 @@ ul {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 5px 0;
 }
 
 .navbar {
   background-color: var(--header-background);
-  padding: 20px 0;
   position: sticky;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 .navbar header {
@@ -93,7 +90,8 @@ ul {
 }
 
 .logosmkn2 {
-  width: 96px;
+  width: 100px;
+  margin-left: -8px;
 }
 
 .header-logo-section {
@@ -103,17 +101,26 @@ ul {
   gap: 20px;
 }
 
+.header-logo-text {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .header-logo-text-title {
-  font-size: 2rem;
+  font-size: 2.1rem;
   font-weight: 600;
   color: var(--primary-text);
   margin: 0;
+  margin-top: 5px;
 }
 
 .header-logo-text-sub {
-  font-size: 1.3rem;
-  color: var(--secondary-text);
-  margin-top: -5px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--primary-text);
+  margin-top: -10px;
 }
 
 .btn-menu {
@@ -146,10 +153,6 @@ main section {
   justify-content: center;
   gap: 250px;
   text-align: left;
-}
-
-section {
-  border-bottom: 7px dashed var(--surface-background);
 }
 
 .logosmkn2-hero {
@@ -757,6 +760,7 @@ footer {
 /* -- Fullscreen Menu Overlay with Animation -- */
 
 .menu-overlay {
+  background-color: black;
   position: fixed;
   top: 0;
   left: 0;
@@ -764,7 +768,7 @@ footer {
   height: 100vh;
   z-index: 1000;
   display: flex;
-  justify-content: flex-start;
+  justify-content: end;
   align-items: center;
   padding: 0 10%;
 
@@ -812,7 +816,9 @@ footer {
 }
 
 .menu-container {
-  text-align: left;
+  text-align: right;
+  display: flex;
+  justify-content: end;
 }
 
 .menu-links {
@@ -825,7 +831,7 @@ footer {
   opacity: 0;
   transform: translateY(30px);
   transition: opacity 0.5s ease, transform 0.5s ease;
-  font-family: "Fira Code";
+  font-family: Poppins;
 }
 
 .menu-overlay.open .menu-links li {
@@ -917,4 +923,20 @@ footer {
 .animated-underline:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+.hero {
+  background-color: var(--accent-color);
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  border-bottom: 7px dashed var(--surface-background);
+}
+
+.header-logo-section {
+  background-color: coral;
+  padding: 20px 30px;
+
 }
