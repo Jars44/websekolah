@@ -21,7 +21,7 @@ jobs:
 
       - name: 📦 Install Dependencies
         run: |
-          npm install --save-dev eslint@latest @eslint/js@latest stylelint htmlhint stylelint-config-standard
+          npm install --save-dev eslint@8.40.0 @eslint/js@8.40.0 stylelint htmlhint stylelint-config-standard
 
       - name: ✅ Lint JS Files with ESLint
         run: |
