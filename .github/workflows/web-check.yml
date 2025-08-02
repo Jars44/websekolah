@@ -25,7 +25,7 @@ jobs:
 
       - name: ✅ Lint JS Files with ESLint
         run: |
-          npx eslint  "**/*.js"
+          eslint . --ext .js
 
       - name: ✅ Lint CSS Files with Stylelint
         run: |
