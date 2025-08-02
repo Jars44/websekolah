@@ -25,11 +25,11 @@ jobs:
 
       - name: ✅ Lint JS Files with ESLint
         run: |
-          eslint . --ext .js || true
+          eslint . --ext .js
 
       - name: ✅ Lint CSS Files with Stylelint
         run: |
-          stylelint "**/*.css"
+          stylelint "**/*.css" --config .stylelintrc.json
 
       - name: ✅ Validate HTML Files with HTMLHint
         run: |
