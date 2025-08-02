@@ -25,8 +25,8 @@ Web design competition prototype repository
 - [X] ~~Information Section~~
 - [X] ~~Facility Section~~
 - [X] ~~News Section~~
-- [ ] History Section
-- [ ] Video Section
+- [X] ~~History Section~~
+- [X] ~~Video Section~~
 - [ ] Jurusan page
   - [ ] Rekayasa Perangkat Lunak
   - [ ] Desain Komunikasi Visual

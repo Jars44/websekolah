@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
   <head>
     <meta charset="UTF-8" />
@@ -8,13 +8,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <link rel="stylesheet" href="styles.css" />
 
     <script defer src="index.js"></script>
   </head>
   <body>
+  
     <nav class="navbar">
       <header class="container">
         <div class="header-logo-section">
@@ -36,67 +43,217 @@
         <div class="menu-close-btn">
           <i class="bi bi-x-lg"></i>
         </div>
-        <div class="menu-container">
-          <ul class="menu-links">
-            <li><a href="#">Beranda</a></li>
-            <li><a href="#">Kontak</a></li>
-            <li><a href="#">Berita</a></li>
-            <li><a href="#">Tentang</a></li>
-          </ul>
+
+        <div class="overlay-content-wrapper">
+          <div class="overlay-nav">
+            <ul class="menu-links">
+              <li>
+                <a href="#"><span class="link-number">01</span>Beranda</a>
+              </li>
+              <li>
+                <a href="#"><span class="link-number">02</span>Kontak</a>
+              </li>
+
+              <li class="has-submenu">
+                <a href="#"><span class="link-number">03</span>Berita</a>
+                <ul class="submenu">
+                  <li><a href="#">Berita Sekolah</a></li>
+                  <li><a href="#">Artikel Siswa</a></li>
+                  <li><a href="#">Info Lomba</a></li>
+                </ul>
+              </li>
+
+              <li class="has-submenu">
+                <a href="#"><span class="link-number">04</span>Tentang</a>
+                <ul class="submenu">
+                  <li><a href="#">Visi & Misi</a></li>
+                  <li><a href="#">Sejarah Sekolah</a></li>
+                  <li><a href="#">Struktur Organisasi</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <hr class="overlay-divider" />
+
+          <div class="overlay-footer">
+            <img
+              class="overlay-logo"
+              src="/assets/logo.webp"
+              alt="STEMDASI Logo"
+            />
+            <div class="overlay-social-media">
+              <a href="#" aria-label="Facebook Profile"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a href="#" aria-label="Instagram Profile"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a href="#" aria-label="YouTube Channel"
+                ><i class="bi bi-youtube"></i
+              ></a>
+              <a href="#" aria-label="Twitter Profile"
+                ><i class="bi bi-twitter"></i
+              ></a>
+            </div>
+          </div>
         </div>
       </div>
-
-      <section class="hero">
+      
+      <section class="hero" id="hero-section">
         <div class="container hero-container">
           <div class="hero-text">
-            <h1>Kreatif</h1>
-            <h2>Berpikir</h2>
-            <h3>Berinovasi</h3>
-            <a href="#" class="hero-button">
-              Learn More
-              <i class="bi bi-arrow-return-right"></i>
-            </a>
+            <h1>Lorem</h1>
+            <h2>Ipsum</h2>
+            <h3>Ipsum</h3>
           </div>
-          <img class="logosmkn2-hero" src="/assets/logo.webp" alt="Hero Image" />
+          <img
+            class="logosmkn2-hero"
+            src="/assets/logo.webp"
+            alt="Hero Image"
+          />
         </div>
       </section>
 
       <section class="head-content-section">
         <div class="container head-content-container">
           <div class="head">
-            <img class="head-img" src="/assets/person_placeholder.webp" alt="Kepala Sekolah" />
-            <div class="role">
-              <div class="role-body">
-                <span>Drs.</span>
-              </div>
-              <div class="role-body">
-                <span>H.</span>
-              </div>
-              <div class="role-body">
-                <span>SPd.</span>
-              </div>
-            </div>
+            <img
+              class="head-img"
+              src="/assets/person_placeholder.webp"
+              alt="Kepala Sekolah"
+            />
           </div>
           <div class="content">
-            <h1>Welcome to STEMDASI</h1>
+            <h1>Lorem Ipsum</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-              ea commodo consequat.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto beatae blanditiis deleniti dicta eaque eius eveniet impedit ipsum labore libero molestiae nihil numquam odio perferendis, provident quis vero. Nesciunt, pariatur.
             </p>
             <p>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-              laborum.
+              ....
             </p>
           </div>
         </div>
       </section>
 
+      <section class="video-highlight-section">
+        <div class="container">
+          <h1 class="section-title">Video Profil Sekolah</h1>
+          <p
+            style="
+              text-align: center;
+              max-width: 600px;
+              margin: 0 auto 50px auto;
+            "
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa atque
+            laborum rem soluta veritatis fugit obcaecati deserunt vel corrupti
+            dolore?
+          </p>
+
+          <div class="video-wrapper">
+            <img
+              src="/assets/front.avif"
+              alt="Video Profil SMKN 2 Singosari Thumbnail"
+              class="video-thumbnail"
+            />
+
+            <button class="play-button" aria-label="Putar Video">
+              <i class="bi bi-play-circle-fill"></i>
+            </button>
+
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/ScMzIvxBSi4?enablejsapi=1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            >
+            </iframe>
+          </div>
+        </div>
+      </section>
+
       <section class="history-section">
-        <img src="/assets/logo.webp" alt="logo" />
-        <p class="animated-underline">We've been running this for years...</p>
-        <div class="history-section-imgs-container"></div>
+        <div class="container">
+          <h1 class="section-title">Jejak Sejarah Kami</h1>
+          <p
+            style="
+              text-align: center;
+              max-width: 600px;
+              margin: 0 auto 60px auto;
+            "
+          >
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Praesentium, vero.
+          </p>
+
+          <div class="history-timeline">
+            <div class="timeline-item">
+              <div class="timeline-icon">
+                <i class="bi bi-flag-fill"></i>
+              </div>
+              <div class="timeline-content">
+                <span class="timeline-year">2007</span>
+                <h3 class="timeline-title">Awal Berdiri</h3>
+                <p class="timeline-description">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Facilis nulla quo perspiciatis quod magni quam nihil officiis
+                  quasi nisi obcaecati!
+                </p>
+              </div>
+            </div>
+
+            <!-- Item 2: Jurusan Baru (di sisi kanan) -->
+            <div class="timeline-item right">
+              <div class="timeline-icon">
+                <i class="bi bi-building-fill-add"></i>
+              </div>
+              <div class="timeline-content">
+                <span class="timeline-year">2010</span>
+                <h3 class="timeline-title">Penambahan Jurusan</h3>
+                <p class="timeline-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam corporis vero voluptates natus consequuntur minima
+                  eveniet laudantium, tempora illum fugit.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-icon">
+                <i class="bi bi-trophy-fill"></i>
+              </div>
+              <div class="timeline-content">
+                <span class="timeline-year">2018</span>
+                <h3 class="timeline-title">Juara LKS</h3>
+                <p class="timeline-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Fugiat, architecto doloremque? Odit temporibus dolorem aliquid
+                  aut libero dolor dolore soluta. Illum temporibus modi nesciunt
+                  cumque. Culpa nisi consectetur magni a.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item right">
+              <div class="timeline-icon">
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <div class="timeline-content">
+                <span class="timeline-year">2023</span>
+                <h3 class="timeline-title">Menjadi SMK Pusat Keunggulan</h3>
+                <p class="timeline-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptate nisi id maiores sit alias vitae reprehenderit vero
+                  quisquam dolores a!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section class="jurusan-section">
@@ -108,66 +265,146 @@
             </button>
             <div class="jurusan-carousel">
               <div class="jurusan-card">
-                <img src="/assets/front.avif" alt="Teknik Komputer dan Jaringan" class="card-bg-img" />
-                <a href="#" class="card-details-btn"><i class="bi bi-arrow-right"></i></a>
+                <img
+                  src="/assets/front.avif"
+                  alt="Teknik Komputer dan Jaringan"
+                  class="card-bg-img"
+                />
+                <a href="#" class="card-details-btn"
+                  ><i class="bi bi-arrow-right"></i
+                ></a>
                 <div class="card-info">
-                  <img class="card-jurusan-icon" src="/assets/TKJ.webp" alt="TKJ Icon" />
+                  <img
+                    class="card-jurusan-icon"
+                    src="/assets/TKJ.webp"
+                    alt="TKJ Icon"
+                  />
                   <span class="card-text">Teknik Komputer & Jaringan</span>
                 </div>
               </div>
               <div class="jurusan-card">
-                <img src="/assets/front.avif" alt="Rekayasa Perangkat Lunak" class="card-bg-img" />
-                <a href="#" class="card-details-btn"><i class="bi bi-arrow-right"></i></a>
+                <img
+                  src="/assets/front.avif"
+                  alt="Rekayasa Perangkat Lunak"
+                  class="card-bg-img"
+                />
+                <a href="#" class="card-details-btn"
+                  ><i class="bi bi-arrow-right"></i
+                ></a>
                 <div class="card-info">
-                  <img class="card-jurusan-icon" src="/assets/RPL.webp" alt="RPL Icon" />
+                  <img
+                    class="card-jurusan-icon"
+                    src="/assets/RPL.webp"
+                    alt="RPL Icon"
+                  />
                   <span class="card-text">Rekayasa Perangkat Lunak</span>
                 </div>
               </div>
               <div class="jurusan-card">
-                <img src="/assets/front.avif" alt="Desain Komuniakasi Visual" class="card-bg-img" />
-                <a href="#" class="card-details-btn"><i class="bi bi-arrow-right"></i></a>
+                <img
+                  src="/assets/front.avif"
+                  alt="Desain Komuniakasi Visual"
+                  class="card-bg-img"
+                />
+                <a href="#" class="card-details-btn"
+                  ><i class="bi bi-arrow-right"></i
+                ></a>
                 <div class="card-info">
-                  <img class="card-jurusan-icon" src="/assets/DKV.webp" alt="DKV Icon" />
+                  <img
+                    class="card-jurusan-icon"
+                    src="/assets/DKV.webp"
+                    alt="DKV Icon"
+                  />
                   <span class="card-text">Desain Komuniakasi Visual</span>
                 </div>
               </div>
               <div class="jurusan-card">
-                <img src="/assets/front.avif" alt="Broadcasting" class="card-bg-img" />
-                <a href="#" class="card-details-btn"><i class="bi bi-arrow-right"></i></a>
+                <img
+                  src="/assets/front.avif"
+                  alt="Broadcasting"
+                  class="card-bg-img"
+                />
+                <a href="#" class="card-details-btn"
+                  ><i class="bi bi-arrow-right"></i
+                ></a>
                 <div class="card-info">
-                  <img class="card-jurusan-icon" src="/assets/BC.webp" alt="BC Icon" />
+                  <img
+                    class="card-jurusan-icon"
+                    src="/assets/BC.webp"
+                    alt="BC Icon"
+                  />
                   <span class="card-text">Broadcasting</span>
                 </div>
               </div>
               <div class="jurusan-card">
-                <img src="/assets/front.avif" alt="Elektronika Industri" class="card-bg-img" />
-                <a href="#" class="card-details-btn"><i class="bi bi-arrow-right"></i></a>
+                <img
+                  src="/assets/front.avif"
+                  alt="Elektronika Industri"
+                  class="card-bg-img"
+                />
+                <a href="#" class="card-details-btn"
+                  ><i class="bi bi-arrow-right"></i
+                ></a>
                 <div class="card-info">
-                  <img class="card-jurusan-icon" src="/assets/EI.webp" alt="EI Icon" />
+                  <img
+                    class="card-jurusan-icon"
+                    src="/assets/EI.webp"
+                    alt="EI Icon"
+                  />
                   <span class="card-text">Elektronika Industri</span>
                 </div>
               </div>
               <div class="jurusan-card">
-                <img src="/assets/front.avif" alt="Mekatronika" class="card-bg-img" />
-                <a href="#" class="card-details-btn"><i class="bi bi-arrow-right"></i></a>
+                <img
+                  src="/assets/front.avif"
+                  alt="Mekatronika"
+                  class="card-bg-img"
+                />
+                <a href="#" class="card-details-btn"
+                  ><i class="bi bi-arrow-right"></i
+                ></a>
                 <div class="card-info">
-                  <img class="card-jurusan-icon" src="/assets/MT.webp" alt="MT Icon" />
+                  <img
+                    class="card-jurusan-icon"
+                    src="/assets/MT.webp"
+                    alt="MT Icon"
+                  />
                   <span class="card-text">Mekatronika</span>
                 </div>
               </div>
               <div class="jurusan-card">
-                <img src="/assets/front.avif" alt="Animasi" class="card-bg-img" />
-                <a href="#" class="card-details-btn"><i class="bi bi-arrow-right"></i></a>
+                <img
+                  src="/assets/front.avif"
+                  alt="Animasi"
+                  class="card-bg-img"
+                />
+                <a href="#" class="card-details-btn"
+                  ><i class="bi bi-arrow-right"></i
+                ></a>
                 <div class="card-info">
-                  <img class="card-jurusan-icon" src="/assets/AN.webp" alt="AN Icon" />
+                  <img
+                    class="card-jurusan-icon"
+                    src="/assets/AN.webp"
+                    alt="AN Icon"
+                  />
                   <span class="card-text">Animasi</span>
                 </div>
               </div>
               <div class="jurusan-card">
-                <img src="/assets/front.avif" alt="Audio Video" class="card-bg-img" />
-                <a href="#" class="card-details-btn"><i class="bi bi-arrow-right"></i></a>
+                <img
+                  src="/assets/front.avif"
+                  alt="Audio Video"
+                  class="card-bg-img"
+                />
+                <a href="#" class="card-details-btn"
+                  ><i class="bi bi-arrow-right"></i
+                ></a>
                 <div class="card-info">
-                  <img class="card-jurusan-icon" src="/assets/AV.webp" alt="AV Icon" />
+                  <img
+                    class="card-jurusan-icon"
+                    src="/assets/AV.webp"
+                    alt="AV Icon"
+                  />
                   <span class="card-text">Audio Video</span>
                 </div>
               </div>
@@ -182,58 +419,61 @@
       <section class="fasilitas-section">
         <h1>Fasilitas Sekolah</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima eius at consequatur sint ipsam facilis id
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima eius
+          at consequatur sint ipsam facilis id
           <br />
-          ratione amet incidunt, assumenda maiores dolorem quasi esse fuga doloremque iste? Magni, facere
-          exercitationem.
+          ratione amet incidunt, assumenda maiores dolorem quasi esse fuga
+          doloremque iste? Magni, facere exercitationem.
         </p>
         <div class="progress-bar">
-          <div class="progress">
-
-          </div>
+          <div class="progress"></div>
         </div>
         <div class="facility-container">
           <div class="facility">
-            <div class="vertical-line">
-
-            </div>
+            <div class="vertical-line"></div>
             <div class="facility-title">
               <i class="bi bi-1-square-fill"></i>
               <p>Lorem</p>
             </div>
-            
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, nam?</p>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+              nam?
+            </p>
           </div>
           <div class="facility">
-            <div class="vertical-line">
-              
-            </div>
+            <div class="vertical-line"></div>
             <div class="facility-title">
               <i class="bi bi-2-square-fill"></i>
               <p>Lorem</p>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, nam?</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+              nam?
+            </p>
           </div>
           <div class="facility">
-            <div class="vertical-line">
-              
-            </div>
+            <div class="vertical-line"></div>
             <div class="facility-title">
               <i class="bi bi-3-square-fill"></i>
               <p>Lorem</p>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, nam?</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+              nam?
+            </p>
           </div>
 
           <div class="facility">
-            <div class="vertical-line">
-              
-            </div>
+            <div class="vertical-line"></div>
             <div class="facility-title">
               <i class="bi bi-4-square-fill"></i>
               <p>Lorem</p>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, nam?</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+              nam?
+            </p>
           </div>
         </div>
       </section>
@@ -243,62 +483,92 @@
           <h1 class="berita-section-title">Berita Terbaru</h1>
           <div class="news-container-list">
             <div class="news-container">
-              <img class="news-img" src="/assets/front.avif" alt="Post thumbnail" />
+              <img
+                class="news-img"
+                src="/assets/front.avif"
+                alt="Post thumbnail"
+              />
               <div class="news-text">
                 <h2 class="news-title">News Title One</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, totam! Reiciendis nemo natus suscipit.
-                  Sed, ut nisi rem totam laboriosam.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Vitae, totam! Reiciendis nemo natus suscipit. Sed, ut nisi rem
+                  totam laboriosam.
                 </p>
               </div>
             </div>
             <div class="news-container">
-              <img class="news-img" src="/assets/front.avif" alt="Post thumbnail" />
+              <img
+                class="news-img"
+                src="/assets/front.avif"
+                alt="Post thumbnail"
+              />
               <div class="news-text">
                 <h2 class="news-title">News Title Two</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, totam! Reiciendis nemo natus suscipit.
-                  Sed, ut nisi rem totam laboriosam.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Vitae, totam! Reiciendis nemo natus suscipit. Sed, ut nisi rem
+                  totam laboriosam.
                 </p>
               </div>
             </div>
             <div class="news-container">
-              <img class="news-img" src="/assets/front.avif" alt="Post thumbnail" />
+              <img
+                class="news-img"
+                src="/assets/front.avif"
+                alt="Post thumbnail"
+              />
               <div class="news-text">
                 <h2 class="news-title">News Title Three</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, totam! Reiciendis nemo natus suscipit.
-                  Sed, ut nisi rem totam laboriosam.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Vitae, totam! Reiciendis nemo natus suscipit. Sed, ut nisi rem
+                  totam laboriosam.
                 </p>
               </div>
             </div>
             <div class="news-container">
-              <img class="news-img" src="/assets/front.avif" alt="Post thumbnail" />
+              <img
+                class="news-img"
+                src="/assets/front.avif"
+                alt="Post thumbnail"
+              />
               <div class="news-text">
                 <h2 class="news-title">News Title One</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, totam! Reiciendis nemo natus suscipit.
-                  Sed, ut nisi rem totam laboriosam.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Vitae, totam! Reiciendis nemo natus suscipit. Sed, ut nisi rem
+                  totam laboriosam.
                 </p>
               </div>
             </div>
             <div class="news-container">
-              <img class="news-img" src="/assets/front.avif" alt="Post thumbnail" />
+              <img
+                class="news-img"
+                src="/assets/front.avif"
+                alt="Post thumbnail"
+              />
               <div class="news-text">
                 <h2 class="news-title">News Title Two</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, totam! Reiciendis nemo natus suscipit.
-                  Sed, ut nisi rem totam laboriosam.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Vitae, totam! Reiciendis nemo natus suscipit. Sed, ut nisi rem
+                  totam laboriosam.
                 </p>
               </div>
             </div>
             <div class="news-container">
-              <img class="news-img" src="/assets/front.avif" alt="Post thumbnail" />
+              <img
+                class="news-img"
+                src="/assets/front.avif"
+                alt="Post thumbnail"
+              />
               <div class="news-text">
                 <h2 class="news-title">News Title Three</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, totam! Reiciendis nemo natus suscipit.
-                  Sed, ut nisi rem totam laboriosam.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Vitae, totam! Reiciendis nemo natus suscipit. Sed, ut nisi rem
+                  totam laboriosam.
                 </p>
               </div>
             </div>
@@ -313,13 +583,17 @@
             <div class="prestasi-slider">
               <div class="slide active">
                 <div class="slide-image">
-                  <img src="/assets/front.avif" alt="Juara 1 Lomba Cerdas Cermat" />
+                  <img
+                    src="/assets/front.avif"
+                    alt="Juara 1 Lomba Cerdas Cermat"
+                  />
                 </div>
                 <div class="slide-content">
                   <h2 class="slide-title">Juara 1 Nasional Lomba LKS 2025</h2>
                   <p class="slide-description">
-                    Siswa-siswi SMKN 2 Singosari berhasil meraih predikat juara pertama dalam ajang Lomba Cerdas Cermat
-                    tingkat Nasional yang diselenggarakan oleh Kemendikbud.
+                    Siswa-siswi SMKN 2 Singosari berhasil meraih predikat juara
+                    pertama dalam ajang Lomba Cerdas Cermat tingkat Nasional
+                    yang diselenggarakan oleh Kemendikbud.
                   </p>
                 </div>
               </div>
@@ -328,13 +602,21 @@
             <!-- Slider Controls -->
             <div class="slider-controls">
               <div class="slide-counter">
-                <span class="current-slide">01</span>/<span class="total-slides">03</span>
+                <span class="current-slide">01</span>/<span class="total-slides"
+                  >03</span
+                >
               </div>
               <div class="slider-nav">
-                <button class="slider-btn prev-btn" aria-label="Previous achievement">
+                <button
+                  class="slider-btn prev-btn"
+                  aria-label="Previous achievement"
+                >
                   <i class="bi bi-chevron-left"></i>
                 </button>
-                <button class="slider-btn next-btn" aria-label="Next achievement">
+                <button
+                  class="slider-btn next-btn"
+                  aria-label="Next achievement"
+                >
                   <i class="bi bi-chevron-right"></i>
                 </button>
               </div>
@@ -353,10 +635,18 @@
                 alt="footer image of SMKN 2 Singosari Logo"
               />
               <div class="social-media">
-                <a href="#" aria-label="Facebook Profile"><i class="bi bi-facebook"></i></a>
-                <a href="#" aria-label="Instagram Profile"><i class="bi bi-instagram"></i></a>
-                <a href="#" aria-label="YouTube Channel"><i class="bi bi-youtube"></i></a>
-                <a href="#" aria-label="Twitter Profile"><i class="bi bi-twitter"></i></a>
+                <a href="#" aria-label="Facebook Profile"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+                <a href="#" aria-label="Instagram Profile"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+                <a href="#" aria-label="YouTube Channel"
+                  ><i class="bi bi-youtube"></i
+                ></a>
+                <a href="#" aria-label="Twitter Profile"
+                  ><i class="bi bi-twitter"></i
+                ></a>
               </div>
             </div>
             <div class="footer-links">
@@ -386,5 +676,6 @@
         </div>
       </footer>
     </main>
+  
   </body>
 </html>
